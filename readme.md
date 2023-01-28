@@ -4,6 +4,8 @@
 ## Application :
 Online hotel booking application
 
+![My Image](.github/readme-booki.jpg)
+
 ## Mission
 Integration of design model in html and css with the BEM method
 
