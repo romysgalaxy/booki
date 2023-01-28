@@ -7,11 +7,11 @@ Online hotel booking application
 ![My Image](.github/readme-booki.jpg)
 
 ## Mission
-Integration of design model in html and css with the BEM method
+Integration of design model in HTML and CSS with the BEM method
 
 ## Installation :
 ```bash
-Open the booki.html file in your navigateur
+Open the booki.html file in your browser
 ```
 
 ## Technologies :
