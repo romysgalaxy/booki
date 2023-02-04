@@ -151,24 +151,27 @@ a.booki-header-nav__link {
   border-bottom: 2px solid var(--gray-color);
 }
 
+a.booki-header-nav__link:focus,
+a.booki-header-nav__link:hover,
+a.active {
+  border-bottom: 2px solid var(--blue-color);
+}
+
+a.booki-header-nav__link:focus > span,
+a.booki-header-nav__link:hover > span,
+.active > span {
+  color: var(--blue-color);
+}
+
 @media screen and (min-width: 768px) {
   a.booki-header-nav__link {
     width: auto;
     padding: 0 24px;
   }
-}
+  .active > span {
+    color: var(--black-color);
+  }
 
-a.booki-header-nav__link:focus,
-a.booki-header-nav__link:hover {
-  border-bottom: 2px solid var(--blue-color);
-}
-
-a.booki-header-nav__link:focus > span,
-a.booki-header-nav__link:hover > span {
-  color: var(--blue-color);
-}
-
-@media screen and (min-width: 768px) {
   a.booki-header-nav__link {
     border-bottom: unset;
     border-top: 2px solid transparent;
@@ -514,6 +517,10 @@ a.booki-header-nav__link:hover > span {
 }
 
 /* (=^ᆺ^=) ACCOMMODATION (=^ᆺ^=) */
+
+#accomodation {
+  margin-bottom: 20px;
+}
 
 .booki-accommodation h1 {
   margin-bottom: 14px;
